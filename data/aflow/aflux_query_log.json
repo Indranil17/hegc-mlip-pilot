@@ -1,0 +1,65 @@
+[
+ {
+  "target": "powellite_CaMoO4",
+  "query": "https://aflow.org/API/aflux/?species(Ca,Mo,O),nspecies(3),compound,auid,aurl,spacegroup_relax,Pearson_symbol_relax,prototype,volume_atom,density,enthalpy_formation_atom,Egap,ldau_type,species,nspecies,natoms,paging(0)",
+  "http": 200,
+  "n_entries_species_set": 17,
+  "n_matching_formula_and_sg": 14
+ },
+ {
+  "target": "perovskite_CaTiO3",
+  "query": "https://aflow.org/API/aflux/?species(Ca,O,Ti),nspecies(3),compound,auid,aurl,spacegroup_relax,Pearson_symbol_relax,prototype,volume_atom,density,enthalpy_formation_atom,Egap,ldau_type,species,nspecies,natoms,paging(0)",
+  "http": 200,
+  "n_entries_species_set": 51,
+  "n_matching_formula_and_sg": 4
+ },
+ {
+  "target": "perovskite_NdAlO3",
+  "query": "https://aflow.org/API/aflux/?species(Al,Nd,O),nspecies(3),compound,auid,aurl,spacegroup_relax,Pearson_symbol_relax,prototype,volume_atom,density,enthalpy_formation_atom,Egap,ldau_type,species,nspecies,natoms,paging(0)",
+  "http": 200,
+  "n_entries_species_set": 11,
+  "n_matching_formula_and_sg": 10
+ },
+ {
+  "target": "pyrochlore_La2Zr2O7",
+  "query": "https://aflow.org/API/aflux/?species(La,O,Zr),nspecies(3),compound,auid,aurl,spacegroup_relax,Pearson_symbol_relax,prototype,volume_atom,density,enthalpy_formation_atom,Egap,ldau_type,species,nspecies,natoms,paging(0)",
+  "http": 200,
+  "n_entries_species_set": 47,
+  "n_matching_formula_and_sg": 22
+ },
+ {
+  "target": "pyrochlore_Nd2Zr2O7",
+  "query": "https://aflow.org/API/aflux/?species(Nd,O,Zr),nspecies(3),compound,auid,aurl,spacegroup_relax,Pearson_symbol_relax,prototype,volume_atom,density,enthalpy_formation_atom,Egap,ldau_type,species,nspecies,natoms,paging(0)",
+  "http": 200,
+  "n_entries_species_set": 8,
+  "n_matching_formula_and_sg": 8
+ },
+ {
+  "target": "pollucite_CsAlSi2O6",
+  "query": "https://aflow.org/API/aflux/?species(Al,Cs,O,Si),nspecies(4),compound,auid,aurl,spacegroup_relax,Pearson_symbol_relax,prototype,volume_atom,density,enthalpy_formation_atom,Egap,ldau_type,species,nspecies,natoms,paging(0)",
+  "http": 200,
+  "n_entries_species_set": 5,
+  "n_matching_formula_and_sg": 0
+ },
+ {
+  "target": "baddeleyite_ZrO2",
+  "query": "https://aflow.org/API/aflux/?species(O,Zr),nspecies(2),compound,auid,aurl,spacegroup_relax,Pearson_symbol_relax,prototype,volume_atom,density,enthalpy_formation_atom,Egap,ldau_type,species,nspecies,natoms,paging(0)",
+  "http": 200,
+  "n_entries_species_set": 309,
+  "n_matching_formula_and_sg": 41
+ },
+ {
+  "target": "rutile_TiO2",
+  "query": "https://aflow.org/API/aflux/?species(O,Ti),nspecies(2),compound,auid,aurl,spacegroup_relax,Pearson_symbol_relax,prototype,volume_atom,density,enthalpy_formation_atom,Egap,ldau_type,species,nspecies,natoms,paging(0)",
+  "http": 200,
+  "n_entries_species_set": 463,
+  "n_matching_formula_and_sg": 126
+ },
+ {
+  "target": "zirconolite_CaZrTi2O7",
+  "query": "https://aflow.org/API/aflux/?species(Ca,O,Ti,Zr),nspecies(4),compound,auid,aurl,spacegroup_relax,Pearson_symbol_relax,prototype,volume_atom,density,enthalpy_formation_atom,Egap,ldau_type,species,nspecies,natoms,paging(0)",
+  "http": 200,
+  "n_entries_species_set": 0,
+  "n_matching_formula_and_sg": 0
+ }
+]

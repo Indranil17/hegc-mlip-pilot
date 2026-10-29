@@ -1,0 +1,49 @@
+{
+ "meta": {
+  "processor": "",
+  "python": "3.11.15",
+  "rmax": 6.0,
+  "nbins": 120,
+  "repeat": 3,
+  "crisp_available": true,
+  "note": "CRISP time is for ONE species pair; the C++ time is for ALL partial RDFs at once."
+ },
+ "rows": [
+  {
+   "n_atoms": 300,
+   "cxx_all_partial_rdfs_s": 0.00556394993327558,
+   "ase_neighbor_list_s": 0.17858059995342046,
+   "crisp_one_pair_rdf_s": 0.10189759696368128
+  },
+  {
+   "n_atoms": 1000,
+   "cxx_all_partial_rdfs_s": 0.004445508937351406,
+   "ase_neighbor_list_s": 0.18433899502269924,
+   "crisp_one_pair_rdf_s": 1.2294714249437675
+  },
+  {
+   "n_atoms": 3000,
+   "cxx_all_partial_rdfs_s": 0.01630781893618405,
+   "ase_neighbor_list_s": 0.9055116770323366,
+   "crisp_one_pair_rdf_s": 14.729600160964765
+  },
+  {
+   "n_atoms": 10000,
+   "cxx_all_partial_rdfs_s": 0.049362404039129615,
+   "ase_neighbor_list_s": 2.6969638779992238,
+   "crisp_one_pair_rdf_s": null
+  },
+  {
+   "n_atoms": 30000,
+   "cxx_all_partial_rdfs_s": 0.14335448702331632,
+   "ase_neighbor_list_s": 10.3546813899884,
+   "crisp_one_pair_rdf_s": null
+  },
+  {
+   "n_atoms": 100000,
+   "cxx_all_partial_rdfs_s": 0.5936871379381046,
+   "ase_neighbor_list_s": null,
+   "crisp_one_pair_rdf_s": null
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "all_pass": true,
+ "cases": [
+  {
+   "case": "diamond",
+   "max_size": 12,
+   "roots_tested": 2,
+   "n_T": 2,
+   "agree": 2
+  },
+  {
+   "case": "simple cubic",
+   "max_size": 10,
+   "roots_tested": 1,
+   "n_T": 1,
+   "agree": 1
+  },
+  {
+   "case": "LTA",
+   "max_size": 12,
+   "roots_tested": 24,
+   "n_T": 24,
+   "agree": 24
+  },
+  {
+   "case": "CHA",
+   "max_size": 10,
+   "roots_tested": 36,
+   "n_T": 36,
+   "agree": 36
+  },
+  {
+   "case": "FER",
+   "max_size": 10,
+   "roots_tested": 36,
+   "n_T": 36,
+   "agree": 36
+  },
+  {
+   "case": "AM26 silica cell 0",
+   "max_size": 9,
+   "roots_tested": 12,
+   "n_T": 100,
+   "agree": 12
+  },
+  {
+   "case": "AM26 silica cell 3",
+   "max_size": 9,
+   "roots_tested": 12,
+   "n_T": 100,
+   "agree": 12
+  }
+ ]
+}

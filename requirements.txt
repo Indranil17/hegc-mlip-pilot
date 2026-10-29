@@ -1,0 +1,7 @@
+# check_structures.py, make_figures.py and analysis/export_structures.py
+ase
+numpy
+scipy
+pandas
+spglib
+matplotlib

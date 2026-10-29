@@ -1,0 +1,28 @@
+{
+ "recipe": "csal",
+ "t_recipe": {
+  "Al": 3
+ },
+ "counter_recipe": {
+  "Cs": 3
+ },
+ "n_structures": 100,
+ "seed": 0,
+ "model": "mace-mpa-0-medium.model",
+ "d3": 1,
+ "dtype": "float32",
+ "fmax_target": 0.05,
+ "relax_steps_max": 300,
+ "generate_and_relax_wall_s": 439.26556146296207,
+ "n_atoms": 111,
+ "E_rel_range_eV": 1.4349498202982431,
+ "E_rel_std_eV": 0.2794033017056549,
+ "n_not_converged": 3,
+ "provenance": "None",
+ "n_eff_300K": 1.0063689162480476,
+ "mean_E_rel_eV_300K": 0.00014714385442859436,
+ "n_eff_800K": 3.21158974578573,
+ "mean_E_rel_eV_800K": 0.06368556745305087,
+ "n_eff_1300K": 18.29248083024483,
+ "mean_E_rel_eV_1300K": 0.2171070905453847
+}

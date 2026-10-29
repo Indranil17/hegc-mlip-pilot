@@ -1,0 +1,35 @@
+data_image0
+_chemical_formula_structural       Al2Nd2O6
+_chemical_formula_sum              "Al2 Nd2 O6"
+_cell_length_a       5.354218828290918
+_cell_length_b       5.354218828290918
+_cell_length_c       5.354218828290914
+_cell_angle_alpha    60.50627738782588
+_cell_angle_beta     60.50627738782588
+_cell_angle_gamma    60.50627738782596
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Al  Al1       1.0  0.0  0.0  0.0  1.0000
+  Al  Al2       1.0  0.5000000000000001  0.49999999999999983  0.5  1.0000
+  Nd  Nd1       1.0  0.25000000000000006  0.24999999999999992  0.25  1.0000
+  Nd  Nd2       1.0  0.75  0.75  0.75  1.0000
+  O   O1        1.0  0.6991373472125603  0.24999999999999997  0.8008626527874398  1.0000
+  O   O2        1.0  0.8008626527874402  0.6991373472125598  0.25  1.0000
+  O   O3        1.0  0.25000000000000006  0.8008626527874398  0.6991373472125602  1.0000
+  O   O4        1.0  0.3008626527874398  0.7500000000000003  0.19913734721256  1.0000
+  O   O5        1.0  0.19913734721256  0.30086265278744  0.75  1.0000
+  O   O6        1.0  0.7500000000000002  0.19913734721255982  0.3008626527874401  1.0000

@@ -1,0 +1,10 @@
+# glass/run_glass.py, aflow/run_aflow_mace.py, aflow/aflux_pull.py (a GPU is needed for the glass runs)
+ase
+numpy
+pandas
+spglib
+requests
+torch
+mace-torch
+torch-dftd
+# host/run_host.py additionally needs ZIPPER (not public) and the Python bindings of the C++ kernels (not included)

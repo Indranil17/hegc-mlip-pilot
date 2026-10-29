@@ -1,0 +1,33 @@
+{
+ "recipe": "he6",
+ "t_recipe": {
+  "Al": 3,
+  "Ti": 1,
+  "Zr": 1,
+  "Sn": 1,
+  "Ge": 1
+ },
+ "counter_recipe": {
+  "Cs": 1,
+  "Sr": 1
+ },
+ "n_structures": 100,
+ "seed": 0,
+ "model": "mace-mpa-0-medium.model",
+ "d3": 1,
+ "dtype": "float32",
+ "fmax_target": 0.05,
+ "relax_steps_max": 300,
+ "generate_and_relax_wall_s": 752.1248793159612,
+ "n_atoms": 110,
+ "E_rel_range_eV": 8.063119628303184,
+ "E_rel_std_eV": 1.0288412838226186,
+ "n_not_converged": 3,
+ "provenance": "None",
+ "n_eff_300K": 1.000046309381426,
+ "mean_E_rel_eV_300K": 1.1148831761863691e-06,
+ "n_eff_800K": 1.1201201033897925,
+ "mean_E_rel_eV_800K": 0.006590764709816396,
+ "n_eff_1300K": 1.915746396191903,
+ "mean_E_rel_eV_1300K": 0.05646076562318067
+}

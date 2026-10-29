@@ -1,0 +1,153 @@
+
+== 1. melt-quenched glass cells (structures/glass)
+[PASS] 8 glass cells found  ['ctz30_d31_seed0', 'ctz30_d31_seed1', 'ctz40_d30_seed0', 'ctz40_d30_seed1', 'ctz40_d31_seed0', 'ctz40_d31_seed1', 'ctz50_d31_seed0', 'ctz50_d31_seed1']
+[PASS] ctz30_d31_seed0: formal charge zero  charge 0, 366 atoms, Al2B22Ca10Mo4Na30Nd6O222Si50Ti14Zr6
+[PASS] ctz30_d31_seed0: density of the CIF cell within 1 % of the tabulated hold mean  CIF 2.866, table 2.867 g/cm3
+[PASS] ctz30_d31_seed1: formal charge zero  charge 0, 366 atoms, Al2B22Ca10Mo4Na30Nd6O222Si50Ti14Zr6
+[PASS] ctz30_d31_seed1: density of the CIF cell within 1 % of the tabulated hold mean  CIF 2.846, table 2.851 g/cm3
+[PASS] ctz40_d31_seed0: formal charge zero  charge 0, 362 atoms, Al2B20Ca12Mo4Na26Nd6O221Si44Ti19Zr8
+[PASS] ctz40_d31_seed0: density of the CIF cell within 1 % of the tabulated hold mean  CIF 2.865, table 2.861 g/cm3
+[PASS] ctz40_d31_seed1: formal charge zero  charge 0, 362 atoms, Al2B20Ca12Mo4Na26Nd6O221Si44Ti19Zr8
+[PASS] ctz40_d31_seed1: density of the CIF cell within 1 % of the tabulated hold mean  CIF 3.027, table 3.025 g/cm3
+[PASS] ctz40_d30_seed0: formal charge zero  charge 0, 362 atoms, Al2B20Ca12Mo4Na26Nd6O221Si44Ti19Zr8
+[PASS] ctz40_d30_seed0: density of the CIF cell within 1 % of the tabulated hold mean  CIF 2.483, table 2.479 g/cm3
+[PASS] ctz40_d30_seed1: formal charge zero  charge 0, 362 atoms, Al2B20Ca12Mo4Na26Nd6O221Si44Ti19Zr8
+[PASS] ctz40_d30_seed1: density of the CIF cell within 1 % of the tabulated hold mean  CIF 2.472, table 2.467 g/cm3
+[PASS] ctz50_d31_seed0: formal charge zero  charge 0, 342 atoms, Al2B16Ca13Mo4Na22Nd6O210Si36Ti23Zr10
+[PASS] ctz50_d31_seed0: density of the CIF cell within 1 % of the tabulated hold mean  CIF 3.141, table 3.141 g/cm3
+[PASS] ctz50_d31_seed1: formal charge zero  charge 0, 342 atoms, Al2B16Ca13Mo4Na22Nd6O210Si36Ti23Zr10
+[PASS] ctz50_d31_seed1: density of the CIF cell within 1 % of the tabulated hold mean  CIF 3.129, table 3.126 g/cm3
+[PASS] coordination, bridging O, Q^n, Mo and Nd cluster numbers equal the tabulated ones  200 numbers, largest difference 8.3e-17
+[PASS] CaO + TiO2 + ZrO2 are 27.4, 35.2 and 43.1 wt % of the Table 1 mixtures and 27.5, 35.3 and 42.7 wt % of the cells (the label CTZ-x is the paper's name, not this number)  Table 1 27.4, 35.2, 43.1; cells 27.5, 35.3, 42.7
+[PASS] the Table 1 columns for CTZ-30, 40 and 50 sum to 100 mol % within 0.05  99.99, 99.99, 100.00
+[PASS] cation mean squared displacement at the end of the 5000 K melt is 24 to 32 times (V/N)^(2/3), 131 to 177 A^2  23.7 to 32.4 times, 131 to 177 A^2
+[PASS] with D3 the density is 6.0 to 11.7 % below the glass-ceramic value  -11.7 to -6.0 %
+[PASS] without D3 it is 23.5 to 23.9 % below  -23.9 to -23.5 %
+[PASS] D3 raises the CTZ-40 density by 15.4 to 22.6 % (four run pairs)  15.4 to 22.6 %
+[PASS] D3 mean densities 2.86, 2.94, 3.13 g/cm3  [2.859, 2.943, 3.133]
+[NOTE] CTZ-30 against CTZ-40: mean step +0.084 g/cm3, exact permutation p (one-sided) 0.333, 6 labelings
+[NOTE] CTZ-40 against CTZ-50: mean step +0.190 g/cm3, exact permutation p (one-sided) 0.167, 6 labelings
+[NOTE] CTZ-30 against CTZ-50: mean step +0.274 g/cm3, exact permutation p (one-sided) 0.167, 6 labelings
+[PASS] no density step is resolved: the smallest one-sided p of the three steps is 1/6 = 0.17 (the smallest value 2 runs per group can give)  p = 0.33, 0.17, 0.17
+[PASS] pressure of the final state -0.39 to -0.27 GPa in all D3 and no-D3 runs  -0.39 to -0.27 GPa
+[PASS] energy per atom of the two quenches of one composition differs by 11.2, 18.3 and 9.6 meV/atom  11.2, 18.3, 9.6
+[PASS] with D3 8.4 to 13.8 ps per GPU-hour and 5.6 to 9.2 h per 77 ps; without D3 19 to 41 ps per GPU-hour  D3 8.4 to 13.8 ps/h, 5.6 to 9.2 h; no D3 19 to 41 ps/h
+[PASS] same job, different GPU node: step time differs by a factor of 1.65 (D3 runs)  260 to 428 ms per step
+[PASS] ring counts of the Si,B,Al network are 0.03 to 0.18 per network atom  0.030 to 0.182 (stored, from the ring counter)
+[PASS] Si is four-coordinate: CN = 4 for 97 to 100 % of the Si in every cell  97.2 to 100.0 %
+[PASS] three-coordinate boron: 0.75 to 1.0 of the B atoms  0.75 to 1.00
+[NOTE] mean M-O distance inside the cutoff, range over cells (A): Si 1.64-1.65, B 1.38-1.42, Mo 1.83-1.94, Ti 1.88-1.94, Zr 2.11-2.16, Nd 2.42-2.52, Na 2.56-2.61, Ca 2.44-2.52
+   coordination (cutoffs in A: Si 2.0, B 1.9, Al 2.2, Ti 2.5, Zr 2.8, Mo 2.3, Nd 3.1, Na 3.2, Ca 3.1), D3 runs, mean of two seeds
+     CN_Si        CTZ-30 4.00  CTZ-40 4.00  CTZ-50 4.01
+     CN_B         CTZ-30 3.14  CTZ-40 3.25  CTZ-50 3.06
+     B3_fraction  CTZ-30 0.82  CTZ-40 0.75  CTZ-50 0.94
+     CN_Al        CTZ-30 4.25  CTZ-40 4.25  CTZ-50 4.00
+     CN_Ti        CTZ-30 4.57  CTZ-40 4.71  CTZ-50 4.96
+     CN_Zr        CTZ-30 6.08  CTZ-40 5.81  CTZ-50 5.95
+     CN_Mo        CTZ-30 4.75  CTZ-40 4.62  CTZ-50 4.38
+     CN_Nd        CTZ-30 7.00  CTZ-40 6.83  CTZ-50 7.33
+     CN_Na        CTZ-30 5.98  CTZ-40 5.94  CTZ-50 6.05
+     CN_Ca        CTZ-30 6.35  CTZ-40 6.46  CTZ-50 6.42
+   Q^n of Si over the Si,B,Al network, D3 runs, mean of two seeds (Q0 .. Q4)
+     CTZ-30  0.01  0.18  0.41  0.29  0.11
+     CTZ-40  0.02  0.19  0.41  0.28  0.09
+     CTZ-50  0.10  0.25  0.44  0.19  0.01
+   Q^n of Si over the Si,B,Al,Ti,Zr network, D3 runs, mean of two seeds (Q0 .. Q4)
+     CTZ-30  0.00  0.00  0.11  0.47  0.42
+     CTZ-40  0.00  0.01  0.09  0.39  0.51
+     CTZ-50  0.00  0.00  0.06  0.40  0.53
+   bridging oxygen by network definition (D3 runs, mean of two seeds)
+     Si,B,Al         CTZ-30 0.369  CTZ-40 0.296  CTZ-50 0.217
+     Si,B,Al,Ti      CTZ-30 0.572  CTZ-40 0.570  CTZ-50 0.538
+     Si,B,Al,Ti,Zr   CTZ-30 0.707  CTZ-40 0.735  CTZ-50 0.757
+[PASS] bridging O over Si,B,Al falls with CTZ: 0.37, 0.30, 0.22  
+[PASS] with Ti added it does not fall: 0.57, 0.57, 0.54  
+[PASS] with Ti and Zr added it rises: 0.71, 0.74, 0.76  
+[PASS] all Si,B,Al cutoffs moved by -0.1 A: bridging O still falls with CTZ and the two runs of each composition do not overlap  0.369, 0.296, 0.217
+[PASS] all Si,B,Al cutoffs moved by +0.1 A: bridging O still falls with CTZ and the two runs of each composition do not overlap  0.369, 0.296, 0.217
+[NOTE] Q4 fraction of Si over the Si,B,Al network (D3 runs): 0.11, 0.09, 0.01; it changes with the network definition as well
+   Mo against the Mo-O cutoff (8 cells, 4 Mo each)
+     cutoff 1.9: mean CN 2.97, CN = 4 for 31 % of Mo, CN = 5 for 0 %, no O shared between Mo in 8 of 8 cells
+     cutoff 2.0: mean CN 3.69, CN = 4 for 62 % of Mo, CN = 5 for 6 %, no O shared between Mo in 7 of 8 cells
+     cutoff 2.3: mean CN 4.53, CN = 4 for 53 % of Mo, CN = 5 for 41 %, no O shared between Mo in 7 of 8 cells
+     cutoff 2.6: mean CN 4.75, CN = 4 for 44 % of Mo, CN = 5 for 38 %, no O shared between Mo in 6 of 8 cells
+[PASS] no O shared between two Mo in 7 of 8 cells at 2.0 and 2.3 A, 6 of 8 at 2.6 A  {1.9: 8, 2.0: 7, 2.3: 7, 2.6: 6}
+[PASS] shortest Mo-Mo distance in any cell is 3.33 A  3.330 A
+   Nd: largest group of Nd that share oxygen, against the Nd-O cutoff
+     ctz30_d31_seed0    2.9: 2  3.1: 2  3.3: 2
+     ctz30_d31_seed1    2.9: 2  3.1: 2  3.3: 2
+     ctz40_d31_seed0    2.9: 2  3.1: 2  3.3: 2
+     ctz40_d31_seed1    2.9: 1  3.1: 1  3.3: 2
+     ctz50_d31_seed0    2.9: 4  3.1: 4  3.3: 4
+     ctz50_d31_seed1    2.9: 3  3.1: 4  3.3: 4
+[PASS] Nd groups of 3 or 4 occur only at CTZ-50; at most 2 elsewhere (D3 runs, all three cutoffs)  
+[PASS] shortest Nd-Nd distance 3.68 to 3.70 A at CTZ-50 and 4.11 to 5.59 A at CTZ-30 and 40  3.68-3.70 and 4.11-5.59 A
+[NOTE] each cell holds 4 Mo and 6 Nd and each composition has 2 cells: the Mo and Nd findings are observations, not statistics
+[PASS] motif nd_cluster_ctz50_seed0: 4 Nd joined through shared O  Nd4O24
+[PASS] motif nd_largest_ctz40_seed0: 2 Nd joined through shared O  Nd2O13
+[PASS] motif mo_cn4_ctz30_d31_seed0: one Mo with 4 O, no O shared with another Mo  MoO4
+[PASS] motif mo_cn5_ctz30_d31_seed0: one Mo with 5 O, no O shared with another Mo  MoO5
+[PASS] motif mo_shared_O_pair_ctz50_d31_seed0: two Mo that share O, Mo-Mo 3.33 A  Mo2O8, Mo-Mo 3.330 A, CN [5, 5]
+
+== 2. chabazite host with several T cations (structures/host, results/host)
+[PASS] framework: 36 T sites, 36 space-group operations (R-3m at tolerance 0.1 A), every T has 4 T neighbours  36 T sites, 36 operations
+[PASS] Loewenstein-compliant placements: 558 for 2 Al (21 classes), 4908 for 3 Al (139 classes)  558 (21), 4908 (139)
+[PASS] six-species recipe: 4.82e9 labelled T patterns, at least 1.34e8 symmetry-distinct  4.820e+09 labelled, 1.339e+08 distinct at least
+[PASS] he6: 100 structures  
+[PASS] he6: all 100 arrangements are charge balanced  formal charges [0]
+[PASS] he6: no oxygen bonded to two Al (Loewenstein) in any structure  0 violations
+[PASS] he6: Cs coordination equals the tabulated one in all structures  mean 6.97 +/- 0.95
+[PASS] he6: Sr coordination equals the tabulated one  mean 5.61 +/- 1.38
+[PASS] he6: first Cs-O peak at 3.25 A  3.25 A
+[PASS] he6: first Sr-O peak at 2.55 A  2.55 A
+   he6: range 8.06 eV, std 1.03, IQR 0.78, n_eff at 300/800/1300 K 1.0/1.1/1.9, bootstrap 95 % interval at 1300 K 1.3 to 9.8, relaxations above 0.1 eV/A: 3
+[PASS] he6: no relation between energy and Cs coordination  rho -0.135, p 0.18
+[PASS] csal: 100 structures  
+[PASS] csal: all 100 arrangements are charge balanced  formal charges [0]
+[PASS] csal: no oxygen bonded to two Al (Loewenstein) in any structure  0 violations
+[NOTE] csal: Cs coordination per cation over 300 Cs: 7.40 +/- 0.94
+[PASS] csal: Cs coordination per structure equals the tabulated one  mean 7.40 +/- 0.61
+[PASS] csal: first Cs-O peak at 3.25 A  3.25 A
+   csal: range 1.43 eV, std 0.28, IQR 0.38, n_eff at 300/800/1300 K 1.0/3.2/18.3, bootstrap 95 % interval at 1300 K 11.8 to 44.0, relaxations above 0.1 eV/A: 3
+[PASS] csal: energy falls with Cs coordination, Spearman -0.32, p about 1e-3  rho -0.324, asymptotic p 0.0010, permutation p 0.0009 (two-sided, 20000 draws)
+[PASS] energy range 8.06 against 1.43 eV, std 1.03 against 0.28 eV  
+[PASS] std ratio 3.7 on the converged runs, interquartile range ratio 2.0  3.69, 2.04
+[PASS] effective number of structures at 300, 800, 1300 K: 1.0, 1.1, 1.9 (six species) and 1.0, 3.2, 18.3 (Cs only)  
+[PASS] the 95 % bootstrap intervals of n_eff(1300 K) do not overlap  1.3-9.8 against 11.8-44.0
+[PASS] 3 of 100 relaxations per recipe stop above 0.1 eV/A  
+[PASS] the 100 Cs-only structures hold 100 different Al patterns, 100 of the 139 classes  100 classes; farthest relaxed Al from its framework T site 0.34 A
+[NOTE] the Cs-only sample covers most of its Al patterns, the six-species sample about 1 in 10^6 of its T patterns: the two effective ensemble sizes are not measured on equal footing
+
+== 3. AFLOW phases (structures/aflow)
+[PASS] baddeleyite_ZrO2: space group 14 equals the AFLOW binary and the AFLOW database  O8Zr4, 12 atoms, A2B_mP12_14_2e_e
+[PASS] perovskite_CaTiO3: space group 62 equals the AFLOW binary and the AFLOW database  Ca4O12Ti4, 20 atoms, AB3C_oP20_62_c_cd_a
+[PASS] perovskite_NdAlO3: space group 167 equals the AFLOW binary and the AFLOW database  Al2Nd2O6, 10 atoms, ABC3_hR10_167_b_a_e
+[PASS] powellite_CaMoO4: space group 88 equals the AFLOW binary and the AFLOW database  Ca2Mo2O8, 12 atoms, ABC4_tI24_88_a_b_f
+[PASS] pyrochlore_La2Zr2O7: space group 227 equals the AFLOW binary and the AFLOW database  La4O14Zr4, 22 atoms, A2B7C2_cF88_227_c_af_d
+[PASS] pyrochlore_Nd2Zr2O7: space group 227 equals the AFLOW binary and the AFLOW database  Nd4O14Zr4, 22 atoms, A2B7C2_cF88_227_c_af_d
+[PASS] rutile_TiO2: space group 136 equals the AFLOW binary and the AFLOW database  O4Ti2, 6 atoms, A2B_tP6_136_f_a
+[PASS] 7 of 7 phases agree  
+[PASS] chabazite framework: spglib 146 at tolerance 1e-3, 166 at 1e-1 (AFLOW binary: 166)  146, 166
+[PASS] MACE-MPA-0 volumes without D3: -2.8 to +1.5 % of the AFLOW cell  -2.85 to 1.47 %
+[PASS] with D3: -4.7 to -1.4 % of the AFLOW cell  -4.67 to -1.44 %
+[PASS] D3 lowers each volume by 1.6 to 2.9 %  1.60 to 2.87 %
+[PASS] volume per atom of each CIF equals the AFLOW value in the table  
+[NOTE] AFLOW's entries use DFT+U for some phases (ldau_type 0 and 2), so these differences mix model error and calculation settings; the CIF served per entry is its relaxed cell
+
+== 4. shortest-path ring counts, independent depth-first enumeration (structures/nets)
+[PASS] diamond: 12 six-rings through every atom and no other ring up to size 12  {6: 12}
+[PASS] simple cubic: 12 four-rings and 24 six-rings through every atom  {4: 12, 6: 24}
+[PASS] LTA: 24 T atoms, 408 rings through T atoms up to size 12, equal to the stored count 408 (C++ and ZIPPER)  ring sizes present [4, 6, 8, 12]
+[PASS] CHA: 36 T atoms, 396 rings through T atoms up to size 12, equal to the stored count 396 (C++ and ZIPPER)  ring sizes present [4, 6, 8, 12]
+[PASS] FER: 36 T atoms, 564 rings through T atoms up to size 12, equal to the stored count 564 (C++ and ZIPPER)  ring sizes present [5, 6, 8, 10, 12]
+
+== 5. stored benchmark and verification files (results/cxx, results/analysis)
+[PASS] g(r), one thread: 18, 277, 903 times faster than CRISP at 300, 1000, 3000 atoms (C++ all pairs, CRISP one pair)  {300: 18, 1000: 277, 3000: 903}
+[PASS] cell-list cost grows linearly with atoms (log-log slope 1.0, 1,000 to 100,000 atoms); CRISP's grows with slope 2.2 (300 to 3,000 atoms)  slopes 1.04 and 2.16
+[PASS] g(r) for 100,000 atoms takes 0.59 s  0.59 s
+[PASS] ring counts identical to the Python reference on 16 of 16 structures  
+[PASS] ring enumerator 5.9 to 12.0 times faster on one thread  5.9 to 12.0
+[PASS] 5,280 g(r) comparisons with CRISP, largest difference 0  5280 comparisons, largest 0.0
+[PASS] independent ring enumeration agrees with both implementations on all roots tested  
+
+ALL PASS

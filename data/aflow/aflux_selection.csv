@@ -1,0 +1,10 @@
+name,role,found,aurl,auid,compound,spacegroup_relax,Pearson,volume_atom_A3,density_g_cm3,enthalpy_formation_atom_eV,Egap_eV,ldau_type,n_entries_for_formula
+powellite_CaMoO4,Mo host in glass-ceramic [Wan 2021],True,aflowlib.duke.edu:AFLOWDATA/ICSD_WEB/BCT/Ca1Mo1O4_ICSD_22351,aflow:01f75d72308f33d9,Ca2Mo2O8,88.0,tI24,13.5833,4.07531,-2.04619,3.3675,2.0,14.0
+perovskite_CaTiO3,competing phase at CTZ-50,True,aflowlib.duke.edu:AFLOWDATA/ICSD_WEB/ORC/Ca1O3Ti1_ICSD_16688,aflow:b0116255858e7c92,Ca4O12Ti4,62.0,oP20,11.657,3.87403,-2.60009,2.8935,2.0,4.0
+perovskite_NdAlO3,competing phase at CTZ-20,True,aflowlib.duke.edu:AFLOWDATA/ICSD_WEB/RHL/Al1Nd1O3_ICSD_10333,aflow:485b876e9692f016,Al2Nd2O6,167.0,hR10,10.9778,6.63201,,3.7933,2.0,10.0
+pyrochlore_La2Zr2O7,pyrochlore host,True,aflowlib.duke.edu:AFLOWDATA/ICSD_WEB/FCC/La2O7Zr2_ICSD_15165,aflow:d146f4324e1aee9e,La4O14Zr4,227.0,cF88,14.9363,5.78358,,3.7972,2.0,22.0
+pyrochlore_Nd2Zr2O7,"pyrochlore host, Nd as actinide surrogate",True,aflowlib.duke.edu:AFLOWDATA/ICSD_WEB/FCC/Nd2O7Zr2_ICSD_62793,aflow:34577a021bcc3bf6,Nd4O14Zr4,227.0,cF88,14.3947,6.11306,,3.3495,2.0,8.0
+pollucite_CsAlSi2O6,Cs host,False,,,,,,,,,,,
+baddeleyite_ZrO2,ZrO2 in the glass,True,aflowlib.duke.edu:AFLOWDATA/ICSD_WEB/MCL/O2Zr1_ICSD_15983,aflow:ea71a50e2d165d75,O8Zr4,14.0,mP12,12.2685,5.55922,-3.36854,3.5639,0.0,41.0
+rutile_TiO2,TiO2 in the glass,True,aflowlib.duke.edu:AFLOWDATA/ICSD_WEB/TET/O2Ti1_ICSD_9161,aflow:501599db0fe5d36a,O4Ti2,136.0,tP6,10.9861,4.02556,-2.11403,2.2601,2.0,126.0
+zirconolite_CaZrTi2O7,main actinide host (not in the public catalogue),False,,,,,,,,,,,
